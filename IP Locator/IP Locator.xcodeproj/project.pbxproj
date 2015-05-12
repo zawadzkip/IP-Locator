@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0B74FF1B0188FC007AA2CF /* IPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B74FE1B0188FC007AA2CF /* IPRequest.swift */; };
+		8E0B75011B018929007AA2CF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0B75001B018929007AA2CF /* Alamofire.framework */; };
+		8E6013E41B01881600ABDF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6013E31B01881600ABDF26 /* AppDelegate.swift */; };
+		8E6013E61B01881600ABDF26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6013E51B01881600ABDF26 /* ViewController.swift */; };
+		8E6013E91B01881600ABDF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6013E71B01881600ABDF26 /* Main.storyboard */; };
+		8E6013EB1B01881600ABDF26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6013EA1B01881600ABDF26 /* Images.xcassets */; };
+		8E6013EE1B01881600ABDF26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6013EC1B01881600ABDF26 /* LaunchScreen.xib */; };
+		8E6013FA1B01881600ABDF26 /* IP_LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6013F91B01881600ABDF26 /* IP_LocatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E6013F41B01881600ABDF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E6013D61B01881600ABDF26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E6013DD1B01881600ABDF26;
+			remoteInfo = "IP Locator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D7479186D7480F46A57DF80 /* Pods-IP Locator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IP Locator.release.xcconfig"; path = "Pods/Target Support Files/Pods-IP Locator/Pods-IP Locator.release.xcconfig"; sourceTree = "<group>"; };
+		4D5130648234DE148067AC40 /* Pods-IP Locator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IP Locator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IP Locator/Pods-IP Locator.debug.xcconfig"; sourceTree = "<group>"; };
+		510C7C9128E7C1908306ED49 /* Pods_IP_Locator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IP_Locator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0B74FE1B0188FC007AA2CF /* IPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPRequest.swift; sourceTree = "<group>"; };
+		8E0B75001B018929007AA2CF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Pods-IP Locator/Alamofire.framework"; sourceTree = "<group>"; };
+		8E6013DE1B01881600ABDF26 /* IP Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IP Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6013E21B01881600ABDF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6013E31B01881600ABDF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E6013E51B01881600ABDF26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E6013E81B01881600ABDF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E6013EA1B01881600ABDF26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E6013ED1B01881600ABDF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E6013F31B01881600ABDF26 /* IP LocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IP LocatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6013F81B01881600ABDF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6013F91B01881600ABDF26 /* IP_LocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP_LocatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E6013DB1B01881600ABDF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0B75011B018929007AA2CF /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6013F01B01881600ABDF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC937455F77543B50D5DEBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D5130648234DE148067AC40 /* Pods-IP Locator.debug.xcconfig */,
+				1D7479186D7480F46A57DF80 /* Pods-IP Locator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8728B241D7816393BEC6E08A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E0B75001B018929007AA2CF /* Alamofire.framework */,
+				510C7C9128E7C1908306ED49 /* Pods_IP_Locator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E6013D51B01881600ABDF26 = {
+			isa = PBXGroup;
+			children = (
+				8E6013E01B01881600ABDF26 /* IP Locator */,
+				8E6013F61B01881600ABDF26 /* IP LocatorTests */,
+				8E6013DF1B01881600ABDF26 /* Products */,
+				0BC937455F77543B50D5DEBF /* Pods */,
+				8728B241D7816393BEC6E08A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E6013DF1B01881600ABDF26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E6013DE1B01881600ABDF26 /* IP Locator.app */,
+				8E6013F31B01881600ABDF26 /* IP LocatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E6013E01B01881600ABDF26 /* IP Locator */ = {
+			isa = PBXGroup;
+			children = (
+				8E6013E31B01881600ABDF26 /* AppDelegate.swift */,
+				8E6013E51B01881600ABDF26 /* ViewController.swift */,
+				8E6013E71B01881600ABDF26 /* Main.storyboard */,
+				8E6013EA1B01881600ABDF26 /* Images.xcassets */,
+				8E6013EC1B01881600ABDF26 /* LaunchScreen.xib */,
+				8E6013E11B01881600ABDF26 /* Supporting Files */,
+				8E0B74FE1B0188FC007AA2CF /* IPRequest.swift */,
+			);
+			path = "IP Locator";
+			sourceTree = "<group>";
+		};
+		8E6013E11B01881600ABDF26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E6013E21B01881600ABDF26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E6013F61B01881600ABDF26 /* IP LocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E6013F91B01881600ABDF26 /* IP_LocatorTests.swift */,
+				8E6013F71B01881600ABDF26 /* Supporting Files */,
+			);
+			path = "IP LocatorTests";
+			sourceTree = "<group>";
+		};
+		8E6013F71B01881600ABDF26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E6013F81B01881600ABDF26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E6013DD1B01881600ABDF26 /* IP Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6013FD1B01881600ABDF26 /* Build configuration list for PBXNativeTarget "IP Locator" */;
+			buildPhases = (
+				7C92285CB2495200794E7FB1 /* Check Pods Manifest.lock */,
+				8E6013DA1B01881600ABDF26 /* Sources */,
+				8E6013DB1B01881600ABDF26 /* Frameworks */,
+				8E6013DC1B01881600ABDF26 /* Resources */,
+				E43A273DA6140FEF448019F3 /* Embed Pods Frameworks */,
+				FC8644F7DEEA1AB9F7464D1B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IP Locator";
+			productName = "IP Locator";
+			productReference = 8E6013DE1B01881600ABDF26 /* IP Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E6013F21B01881600ABDF26 /* IP LocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6014001B01881600ABDF26 /* Build configuration list for PBXNativeTarget "IP LocatorTests" */;
+			buildPhases = (
+				8E6013EF1B01881600ABDF26 /* Sources */,
+				8E6013F01B01881600ABDF26 /* Frameworks */,
+				8E6013F11B01881600ABDF26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E6013F51B01881600ABDF26 /* PBXTargetDependency */,
+			);
+			name = "IP LocatorTests";
+			productName = "IP LocatorTests";
+			productReference = 8E6013F31B01881600ABDF26 /* IP LocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E6013D61B01881600ABDF26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = PatZawadzki;
+				TargetAttributes = {
+					8E6013DD1B01881600ABDF26 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					8E6013F21B01881600ABDF26 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8E6013DD1B01881600ABDF26;
+					};
+				};
+			};
+			buildConfigurationList = 8E6013D91B01881600ABDF26 /* Build configuration list for PBXProject "IP Locator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E6013D51B01881600ABDF26;
+			productRefGroup = 8E6013DF1B01881600ABDF26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E6013DD1B01881600ABDF26 /* IP Locator */,
+				8E6013F21B01881600ABDF26 /* IP LocatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E6013DC1B01881600ABDF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6013E91B01881600ABDF26 /* Main.storyboard in Resources */,
+				8E6013EE1B01881600ABDF26 /* LaunchScreen.xib in Resources */,
+				8E6013EB1B01881600ABDF26 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6013F11B01881600ABDF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C92285CB2495200794E7FB1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E43A273DA6140FEF448019F3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IP Locator/Pods-IP Locator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC8644F7DEEA1AB9F7464D1B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IP Locator/Pods-IP Locator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E6013DA1B01881600ABDF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6013E61B01881600ABDF26 /* ViewController.swift in Sources */,
+				8E6013E41B01881600ABDF26 /* AppDelegate.swift in Sources */,
+				8E0B74FF1B0188FC007AA2CF /* IPRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6013EF1B01881600ABDF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6013FA1B01881600ABDF26 /* IP_LocatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E6013F51B01881600ABDF26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E6013DD1B01881600ABDF26 /* IP Locator */;
+			targetProxy = 8E6013F41B01881600ABDF26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E6013E71B01881600ABDF26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6013E81B01881600ABDF26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E6013EC1B01881600ABDF26 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6013ED1B01881600ABDF26 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E6013FB1B01881600ABDF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E6013FC1B01881600ABDF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E6013FE1B01881600ABDF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5130648234DE148067AC40 /* Pods-IP Locator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods-IP",
+					Locator,
+				);
+				INFOPLIST_FILE = "IP Locator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E6013FF1B01881600ABDF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7479186D7480F46A57DF80 /* Pods-IP Locator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods-IP",
+					Locator,
+				);
+				INFOPLIST_FILE = "IP Locator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E6014011B01881600ABDF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IP LocatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IP Locator.app/IP Locator";
+			};
+			name = Debug;
+		};
+		8E6014021B01881600ABDF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IP LocatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IP Locator.app/IP Locator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E6013D91B01881600ABDF26 /* Build configuration list for PBXProject "IP Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6013FB1B01881600ABDF26 /* Debug */,
+				8E6013FC1B01881600ABDF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6013FD1B01881600ABDF26 /* Build configuration list for PBXNativeTarget "IP Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6013FE1B01881600ABDF26 /* Debug */,
+				8E6013FF1B01881600ABDF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6014001B01881600ABDF26 /* Build configuration list for PBXNativeTarget "IP LocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6014011B01881600ABDF26 /* Debug */,
+				8E6014021B01881600ABDF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E6013D61B01881600ABDF26 /* Project object */;
+}
