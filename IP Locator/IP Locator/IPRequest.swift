@@ -71,7 +71,8 @@ class IPRequest : NSObject{
     IPV4 and IPV6 address, then it will return true, otherwise it is false.
     **/
     func checkIPAddress(ipToSend: String) -> Bool{
-        if (ipToSend.rangeOfString(validIPV4AddressRegex, options: .RegularExpressionSearch) != nil){                return true
+        if (ipToSend.rangeOfString(validIPV4AddressRegex, options: .RegularExpressionSearch) != nil){
+            return true
         }else if ipToSend.rangeOfString(validIPV6AddressRegex, options: .RegularExpressionSearch) != nil{
             return true
         }else {
