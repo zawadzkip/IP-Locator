@@ -4,6 +4,7 @@ use_frameworks!
 xcodeproj 'IP Locator'
 target 'IP Locator' do
 	pod 'Alamofire', '~> 1.2.1'
+	pod 'SwiftyJSON','~> 2.2.0'
 end
 
 target 'IP LocatorTests' do
