@@ -14,16 +14,16 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="8Cf-a5-Ynm">
                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="8Cf-a5-Ynm" secondAttribute="height" multiplier="1:1" id="aqM-Hv-Wif"/>
+                        <constraint firstAttribute="width" secondItem="8Cf-a5-Ynm" secondAttribute="height" multiplier="1:1" id="ejB-P7-A8c"/>
                     </constraints>
                     <variation key="default">
                         <mask key="constraints">
-                            <exclude reference="aqM-Hv-Wif"/>
+                            <exclude reference="ejB-P7-A8c"/>
                         </mask>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact">
                         <mask key="constraints">
-                            <include reference="aqM-Hv-Wif"/>
+                            <include reference="ejB-P7-A8c"/>
                         </mask>
                     </variation>
                 </imageView>
@@ -31,9 +31,10 @@
             <color key="backgroundColor" red="0.30980392156862746" green="0.85490196078431369" blue="0.85490196078431369" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="8Cf-a5-Ynm" secondAttribute="centerY" id="0HJ-NV-wwu"/>
-                <constraint firstAttribute="centerX" secondItem="8Cf-a5-Ynm" secondAttribute="centerX" id="idA-1Y-pUJ"/>
-                <constraint firstItem="8Cf-a5-Ynm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="200" id="r4b-7N-jp9"/>
+                <constraint firstItem="8Cf-a5-Ynm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="DIG-fL-eEQ"/>
+                <constraint firstAttribute="trailing" secondItem="8Cf-a5-Ynm" secondAttribute="trailing" id="aWn-PD-izl"/>
+                <constraint firstAttribute="centerY" secondItem="8Cf-a5-Ynm" secondAttribute="centerY" id="ay1-PJ-kUn"/>
+                <constraint firstAttribute="centerX" secondItem="8Cf-a5-Ynm" secondAttribute="centerX" id="qN6-kR-ciy"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
@@ -42,9 +43,10 @@
                     <exclude reference="8Cf-a5-Ynm"/>
                 </mask>
                 <mask key="constraints">
-                    <exclude reference="0HJ-NV-wwu"/>
-                    <exclude reference="idA-1Y-pUJ"/>
-                    <exclude reference="r4b-7N-jp9"/>
+                    <exclude reference="DIG-fL-eEQ"/>
+                    <exclude reference="aWn-PD-izl"/>
+                    <exclude reference="ay1-PJ-kUn"/>
+                    <exclude reference="qN6-kR-ciy"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular-widthClass=compact">
@@ -52,9 +54,10 @@
                     <include reference="8Cf-a5-Ynm"/>
                 </mask>
                 <mask key="constraints">
-                    <include reference="0HJ-NV-wwu"/>
-                    <include reference="idA-1Y-pUJ"/>
-                    <include reference="r4b-7N-jp9"/>
+                    <include reference="DIG-fL-eEQ"/>
+                    <include reference="aWn-PD-izl"/>
+                    <include reference="ay1-PJ-kUn"/>
+                    <include reference="qN6-kR-ciy"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="548" y="455"/>

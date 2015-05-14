@@ -8,6 +8,7 @@
 
 import UIKit
 import Foundation
+import MapKit
 
 class LoadingViewController: UIViewController {
 
@@ -25,11 +26,6 @@ class LoadingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if var destination = segue.destinationViewController as? MainScreenViewController{
-            
-        }
-    }
     
     private func load(){
         imageView.animationImages = [UIImage]()

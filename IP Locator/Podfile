@@ -5,6 +5,7 @@ xcodeproj 'IP Locator'
 target 'IP Locator' do
 	pod 'Alamofire', '~> 1.2.1'
 	pod 'SwiftyJSON','~> 2.2.0'
+	pod 'IJReachability', :git => 'https://github.com/Isuru-Nanayakkara/IJReachability.git'
 end
 
 target 'IP LocatorTests' do

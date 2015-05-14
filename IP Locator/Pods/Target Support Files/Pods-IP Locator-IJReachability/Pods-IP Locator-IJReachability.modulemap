@@ -1,0 +1,6 @@
+framework module IJReachability {
+  umbrella header "Pods-IP Locator-IJReachability-umbrella.h"
+
+  export *
+  module * { export * }
+}

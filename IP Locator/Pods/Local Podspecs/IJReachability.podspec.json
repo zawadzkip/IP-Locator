@@ -1,0 +1,17 @@
+{
+  "name": "IJReachability",
+  "version": "0.1.0",
+  "summary": "A simple class to check for internet connection availability in Swift.",
+  "homepage": "https://github.com/Isuru-Nanayakkara/IJReachability",
+  "license": "MIT",
+  "authors": {
+    "Isuru Nanayakkara": "isuru.nan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Isuru-Nanayakkara/IJReachability.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "IJReachability/IJReachability/IJReachability.swift",
+  "requires_arc": true,
+  "frameworks": "SystemConfiguration"
+}

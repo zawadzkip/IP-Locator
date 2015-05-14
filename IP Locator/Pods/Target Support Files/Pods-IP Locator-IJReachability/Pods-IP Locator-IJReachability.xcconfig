@@ -1,0 +1,1 @@
+PODS_IP_LOCATOR_IJREACHABILITY_OTHER_LDFLAGS = -framework "SystemConfiguration"

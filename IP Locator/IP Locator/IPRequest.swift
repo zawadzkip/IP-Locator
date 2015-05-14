@@ -13,14 +13,7 @@ import SwiftyJSON
 class IPRequest : NSObject{
     private let baseURL = "http://ipinfo.io/"
     private let getGeo = "geo"
-    private var ipQueried:String = ""
-    private var city:String = ""
-    private var region:String = ""
-    private var latitude:String = ""
-    private var longitude:String = ""
-    private var country:String = ""
-    private var postalCode:String  = ""
-    
+    private var responseInfo:IPObject = IPObject()
     //Reader beware, the next two constants make me cringe, but they're useful.
     private let validIPV4AddressRegex = "^(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[0-9]{1,2})(\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[0-9]{1,2})){3}$"
     private let validIPV6AddressRegex = "^(^(([0-9A-F]{1,4}(((:[0-9A-F]{1,4}){5}::[0-9A-F]{1,4})|((:[0-9A-F]{1,4}){4}::[0-9A-F]{1,4}(:[0-9A-F]{1,4}){0,1})|((:[0-9A-F]{1,4}){3}::[0-9A-F]{1,4}(:[0-9A-F]{1,4}){0,2})|((:[0-9A-F]{1,4}){2}::[0-9A-F]{1,4}(:[0-9A-F]{1,4}){0,3})|(:[0-9A-F]{1,4}::[0-9A-F]{1,4}(:[0-9A-F]{1,4}){0,4})|(::[0-9A-F]{1,4}(:[0-9A-F]{1,4}){0,5})|(:[0-9A-F]{1,4}){7}))$|^(::[0-9A-F]{1,4}(:[0-9A-F]{1,4}){0,6})$)|^::$)|^((([0-9A-F]{1,4}(((:[0-9A-F]{1,4}){3}::([0-9A-F]{1,4}){1})|((:[0-9A-F]{1,4}){2}::[0-9A-F]{1,4}(:[0-9A-F]{1,4}){0,1})|((:[0-9A-F]{1,4}){1}::[0-9A-F]{1,4}(:[0-9A-F]{1,4}){0,2})|(::[0-9A-F]{1,4}(:[0-9A-F]{1,4}){0,3})|((:[0-9A-F]{1,4}){0,5})))|([:]{2}[0-9A-F]{1,4}(:[0-9A-F]{1,4}){0,4})):|::)((25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{0,2})\\.){3}(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]{0,2})$$"
@@ -87,13 +80,19 @@ class IPRequest : NSObject{
     **/
     private func setVariables(json: JSON) -> Void{
         var geoArray = json["loc"].string!.componentsSeparatedByString(",")
-        self.ipQueried = json["ip"].string!
-        self.city = json["city"].string!
-        self.region = json["region"].string!
-        self.country = json["country"].string!
-        self.latitude = geoArray[0]
-        self.longitude = geoArray[1]
-        self.postalCode = json["postal"].string!
+        let lat = NSString(string: geoArray[0]).doubleValue
+        let long = NSString(string: geoArray[1]).doubleValue
+        responseInfo.setIP(json["ip"].string!)
+        responseInfo.setCity(json["city"].string!)
+        responseInfo.setRegion(json["region"].string!)
+        responseInfo.setCountry(json["country"].string!)
+        responseInfo.setLatitude(lat)
+        responseInfo.setLongitude(long)
+        responseInfo.setPostalCode(json["postal"].string!)
+    }
+    
+    func getResponseInfo() -> IPObject{
+        return self.responseInfo
     }
     
     
