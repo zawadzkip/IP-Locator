@@ -10,13 +10,16 @@
 		1CE2FF65A5EC17A3AA8213CF /* Pods_IP_Locator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510C7C9128E7C1908306ED49 /* Pods_IP_Locator.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8E0B74FF1B0188FC007AA2CF /* IPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B74FE1B0188FC007AA2CF /* IPRequest.swift */; };
 		8E0B75011B018929007AA2CF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0B75001B018929007AA2CF /* Alamofire.framework */; };
+		8E0CCCC61B040F9D00D00DEC /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CCCC51B040F9D00D00DEC /* MainScreenViewController.swift */; };
 		8E6013E41B01881600ABDF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6013E31B01881600ABDF26 /* AppDelegate.swift */; };
 		8E6013E61B01881600ABDF26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6013E51B01881600ABDF26 /* ViewController.swift */; };
 		8E6013E91B01881600ABDF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6013E71B01881600ABDF26 /* Main.storyboard */; };
 		8E6013EB1B01881600ABDF26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6013EA1B01881600ABDF26 /* Images.xcassets */; };
 		8E6013EE1B01881600ABDF26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E6013EC1B01881600ABDF26 /* LaunchScreen.xib */; };
 		8E6013FA1B01881600ABDF26 /* IP_LocatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6013F91B01881600ABDF26 /* IP_LocatorTests.swift */; };
+		8E945C551B02B45400FE6F54 /* loading-animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8E945C541B02B45400FE6F54 /* loading-animation.gif */; };
 		8EC11DB71B018D3700EF7756 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EC11DB61B018D3700EF7756 /* SwiftyJSON.framework */; };
+		8EDD9DA41B027343001C9042 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EDD9DA31B027343001C9042 /* default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 		510C7C9128E7C1908306ED49 /* Pods_IP_Locator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IP_Locator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0B74FE1B0188FC007AA2CF /* IPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPRequest.swift; sourceTree = "<group>"; };
 		8E0B75001B018929007AA2CF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Pods-IP Locator/Alamofire.framework"; sourceTree = "<group>"; };
+		8E0CCCC51B040F9D00D00DEC /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		8E6013DE1B01881600ABDF26 /* IP Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IP Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6013E21B01881600ABDF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E6013E31B01881600ABDF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +49,9 @@
 		8E6013F31B01881600ABDF26 /* IP LocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IP LocatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6013F81B01881600ABDF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E6013F91B01881600ABDF26 /* IP_LocatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP_LocatorTests.swift; sourceTree = "<group>"; };
+		8E945C541B02B45400FE6F54 /* loading-animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "loading-animation.gif"; sourceTree = "<group>"; };
 		8EC11DB61B018D3700EF7756 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/Pods-IP Locator/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		8EDD9DA31B027343001C9042 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,7 @@
 		8E6013D51B01881600ABDF26 = {
 			isa = PBXGroup;
 			children = (
+				8EDD9DA31B027343001C9042 /* default.png */,
 				8E6013E01B01881600ABDF26 /* IP Locator */,
 				8E6013F61B01881600ABDF26 /* IP LocatorTests */,
 				8E6013DF1B01881600ABDF26 /* Products */,
@@ -115,9 +122,11 @@
 				8E6013E51B01881600ABDF26 /* ViewController.swift */,
 				8E6013E71B01881600ABDF26 /* Main.storyboard */,
 				8E6013EA1B01881600ABDF26 /* Images.xcassets */,
+				8E945C541B02B45400FE6F54 /* loading-animation.gif */,
 				8E6013EC1B01881600ABDF26 /* LaunchScreen.xib */,
 				8E6013E11B01881600ABDF26 /* Supporting Files */,
 				8E0B74FE1B0188FC007AA2CF /* IPRequest.swift */,
+				8E0CCCC51B040F9D00D00DEC /* MainScreenViewController.swift */,
 			);
 			path = "IP Locator";
 			sourceTree = "<group>";
@@ -232,7 +241,9 @@
 			files = (
 				8E6013E91B01881600ABDF26 /* Main.storyboard in Resources */,
 				8E6013EE1B01881600ABDF26 /* LaunchScreen.xib in Resources */,
+				8E945C551B02B45400FE6F54 /* loading-animation.gif in Resources */,
 				8E6013EB1B01881600ABDF26 /* Images.xcassets in Resources */,
+				8EDD9DA41B027343001C9042 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E6013E61B01881600ABDF26 /* ViewController.swift in Sources */,
+				8E0CCCC61B040F9D00D00DEC /* MainScreenViewController.swift in Sources */,
 				8E6013E41B01881600ABDF26 /* AppDelegate.swift in Sources */,
 				8E0B74FF1B0188FC007AA2CF /* IPRequest.swift in Sources */,
 			);
