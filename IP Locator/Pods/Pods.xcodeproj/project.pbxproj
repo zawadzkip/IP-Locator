@@ -7,361 +7,364 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0388C47AADB3E136A7A70F5E /* Pods-IP Locator-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 739EBA72263F073A3FF449DE /* Pods-IP Locator-Alamofire-dummy.m */; };
-		1CD4A284C85B2CD234B33D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB04175E4B04D5009710D01 /* Foundation.framework */; };
-		34E610E6E017D2CE8B6C7389 /* Pods-IP Locator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 301CAF6EDC881852409EBCE8 /* Pods-IP Locator-dummy.m */; };
-		3944BC7739AE960E8A17F25A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CA581BCF0BCB3C0ADA17FC /* SystemConfiguration.framework */; };
-		3A80A68FB0106B59D45A71E5 /* Pods-IP Locator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D559A3F2545119C5AB974A /* Pods-IP Locator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4315B91BF25FDED4C35BECBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB04175E4B04D5009710D01 /* Foundation.framework */; };
-		464984E28BDAB4DF998FD8DE /* Pods-IP Locator-IJReachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B47869583BD816D98243B0BA /* Pods-IP Locator-IJReachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50680878D157C2C7F4049D8F /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137B6ADD5E40D50A0646144 /* Manager.swift */; };
-		60A47C45174B7A51512511ED /* Pods-IP Locator-IJReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FA09A11F0CFFCA1F266FD7 /* Pods-IP Locator-IJReachability-dummy.m */; };
-		9B6394AA47C51B78D738F8E1 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2400BE7995B8049699701363 /* ParameterEncoding.swift */; };
-		9DAF6BB7DBE2C3F1E42A5A4E /* Pods-IP Locator-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA027D60B3CED051D14959A /* Pods-IP Locator-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A293D3F24BABFF01723E9AE3 /* Pods-IP Locator-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DD24A650A58A8C3CF2E0DB /* Pods-IP Locator-SwiftyJSON-dummy.m */; };
-		B152BE1D0EC0CDE539877180 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792CA764DFA1FB9975C81401 /* ResponseSerialization.swift */; };
-		C19A7488EF4B7C7E933D7A92 /* IJReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F074B85956058EE15535351 /* IJReachability.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CC4891792A37009E6A2B5A0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB04175E4B04D5009710D01 /* Foundation.framework */; };
-		D7684C89D67933EBD4893C2F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D8400B7123AE39655857ED /* SwiftyJSON.swift */; };
-		DF4DCC9FD0E304056F2126E0 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10E718E22733405247133C /* Validation.swift */; };
-		E195867B9238EC44C5164782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB04175E4B04D5009710D01 /* Foundation.framework */; };
-		E57FE9DE6955F7EC9973768B /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814204F2D6459040A5B8527D /* Download.swift */; };
-		E839A6C6C6C43D87DAE2A5EC /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F66CC9D520358523A95FB /* Alamofire.swift */; };
-		E85F0ABF28AACB5558D59A87 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F988D52504D2ED356E3873D /* Request.swift */; };
-		ECE87055A4112DE92701F324 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374BEEF9D1AC1099A0870F73 /* Upload.swift */; };
-		FB113F3E321DAF30ADEE9389 /* Pods-IP Locator-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A45375376F1550D26EC266 /* Pods-IP Locator-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		037CCCDE0AC43A59A585BB90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47486F09D76848C286ECEDE4 /* Foundation.framework */; };
+		13DCBA61E8997BAD8F612655 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38F988E3CE1AA8E32564C1 /* ParameterEncoding.swift */; };
+		19C201EAC0E36C010A982526 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670404BDBE7392760CA53714 /* ResponseSerialization.swift */; };
+		291EA5D86D1D07B2AD7636F5 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA43801AA97D7AFF2398C8BB /* Validation.swift */; };
+		3B6D00FB4599E86753074717 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352EFAD3F4ED491935ECBF0A /* Manager.swift */; };
+		40BB4AD7C0D0D125E3762265 /* IJReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D732347349CA789831AA5 /* IJReachability.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4158827DABABBC20210EB94F /* Pods-IP Locator-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 776678C0F823669A0983E81A /* Pods-IP Locator-SwiftyJSON-dummy.m */; };
+		6ADDF15539E0BEF7F9F7E751 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE0F8450DDCA33FA3115258 /* SwiftyJSON.swift */; };
+		7924330DAF4844820361E87C /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917C8DF55261874D5C0D210 /* Download.swift */; };
+		7B05EA71E4A93EB103BD534B /* Pods-IP Locator-IJReachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EACD2D615BCACFEB980CAF6 /* Pods-IP Locator-IJReachability-dummy.m */; };
+		933780AC92A7497AB837326E /* Pods-IP Locator-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B78D313265D550B5E82922C /* Pods-IP Locator-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A448D090E8CEA4F2E10D9BD5 /* Pods-IP Locator-IJReachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6460ABFB0C11C6383CE75B /* Pods-IP Locator-IJReachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5151D4EAB0BEDB25151B48E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47486F09D76848C286ECEDE4 /* Foundation.framework */; };
+		A57653AFC435964B3B7A7C75 /* Pods-IP Locator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2336DE48B2C0AD0F3504757 /* Pods-IP Locator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A97CC7C691179D2109A0C942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47486F09D76848C286ECEDE4 /* Foundation.framework */; };
+		C0F3EC7E708E2F7D605B4F75 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1BF58839F4684B20832C1E /* Request.swift */; };
+		C86933CA7F93BA560067BBA2 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B869A38C01941B54FCD4A9F /* Alamofire.swift */; };
+		CBAF92086C1B1BDDD71D6FC1 /* Pods-IP Locator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E39ABB63ABF1EB0D4FBD89 /* Pods-IP Locator-dummy.m */; };
+		D0049EEE4C6603B0FA75970E /* Pods-IP Locator-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 479F8DDAF65317A34A1DB197 /* Pods-IP Locator-Alamofire-dummy.m */; };
+		D93B1B56728F8E18EA0FBDE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47486F09D76848C286ECEDE4 /* Foundation.framework */; };
+		EEA3F4A282B8ADA8C8DCBA80 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C14AFBE8698182CD467D4CC /* Upload.swift */; };
+		EEA923563F7A3BEA95F20D19 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2909A56FF041BC9A68C6D1BA /* SystemConfiguration.framework */; };
+		FE3C696202DB3BED1E2E7202 /* Pods-IP Locator-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B36ABBC20E915D731958F08 /* Pods-IP Locator-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B98E339474777A39DC91C93 /* PBXContainerItemProxy */ = {
+		9F5A2E09B5D53A58B8D5E142 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9E71B99644B6EF8B52204D2F /* Project object */;
+			containerPortal = 48D0713E84F4737EE794259C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4D99D1B81A1792A39DD57095;
-			remoteInfo = "Pods-IP Locator-IJReachability";
-		};
-		3417620C426E0AD49A8C46B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9E71B99644B6EF8B52204D2F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B956826D2421ED9F20B5C547;
+			remoteGlobalIDString = E13159AE4808FF4CE60CBFD1;
 			remoteInfo = "Pods-IP Locator-Alamofire";
 		};
-		AC72C5D4C6BDD9EAB788E5E0 /* PBXContainerItemProxy */ = {
+		A2DD75588E6EE6165B336F39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9E71B99644B6EF8B52204D2F /* Project object */;
+			containerPortal = 48D0713E84F4737EE794259C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 165169E0B750815964B2CE2D;
+			remoteGlobalIDString = 4FB598BE70302C8DDD4FE6B8;
 			remoteInfo = "Pods-IP Locator-SwiftyJSON";
+		};
+		EB8EC6F62D63BAEE9BB8EA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D0713E84F4737EE794259C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CDFB6D6A09CEB9AD500BE3;
+			remoteInfo = "Pods-IP Locator-IJReachability";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B1AECA8E6C0A768FC349077 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		10FA09A11F0CFFCA1F266FD7 /* Pods-IP Locator-IJReachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IP Locator-IJReachability-dummy.m"; sourceTree = "<group>"; };
-		2400BE7995B8049699701363 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		24F5C6AD4E8DCF5CD1C23C95 /* Pods_IP_Locator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IP_Locator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2629EE2ADE82AFBDD5A740C4 /* Pods-IP Locator-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		27FBE599C2F5C6B88417A407 /* IJReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IJReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F988D52504D2ED356E3873D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		301CAF6EDC881852409EBCE8 /* Pods-IP Locator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IP Locator-dummy.m"; sourceTree = "<group>"; };
-		303FCE812F6C74A8E7E6C83F /* Pods-IP Locator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IP Locator.modulemap"; sourceTree = "<group>"; };
-		35A45375376F1550D26EC266 /* Pods-IP Locator-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		374BEEF9D1AC1099A0870F73 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		3CB04175E4B04D5009710D01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		400F66CC9D520358523A95FB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		43607B24F97B0D10D175032E /* Pods-IP Locator-IJReachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-IJReachability-prefix.pch"; sourceTree = "<group>"; };
-		4444F57E7AB66BE34907E77E /* Pods-IP Locator-IJReachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-IJReachability-Private.xcconfig"; sourceTree = "<group>"; };
-		4AEADEF5C3DFC81D24A54AEE /* Pods-IP Locator-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
-		5766AB0E63AE186B2F2667A9 /* Pods-IP Locator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator.debug.xcconfig"; sourceTree = "<group>"; };
-		58A5A4A999555673244C7413 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DE03AFF1DF4CFFD3CDD4B14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72D8400B7123AE39655857ED /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
-		730FF62B6B49793DE7D0E131 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		739EBA72263F073A3FF449DE /* Pods-IP Locator-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IP Locator-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		792CA764DFA1FB9975C81401 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		7E7332CBCACB5CA43FC64D96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F6442279056156A5F1E9F66 /* Pods-IP Locator-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		814204F2D6459040A5B8527D /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		844D28D386B9BBC4F90E3A08 /* Pods-IP Locator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IP Locator-frameworks.sh"; sourceTree = "<group>"; };
-		861ECB11754C5013079BC5DA /* Pods-IP Locator-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
-		8BC608E3D410C23BEB261DB2 /* Pods-IP Locator-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IP Locator-Alamofire.modulemap"; sourceTree = "<group>"; };
-		8C17E6AFAD0A1DA36824AB93 /* Pods-IP Locator-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IP Locator-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
-		8F10E718E22733405247133C /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		8FA027D60B3CED051D14959A /* Pods-IP Locator-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		995C26EE45D62DCC7ED03A35 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F074B85956058EE15535351 /* IJReachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IJReachability.swift; path = IJReachability/IJReachability/IJReachability.swift; sourceTree = "<group>"; };
-		A837FE7022061F34B91B5349 /* Pods-IP Locator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IP Locator-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A87380A5C3DCDE257092FE82 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF5B09E2CCA4B7F284A266BD /* Pods-IP Locator-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		B47869583BD816D98243B0BA /* Pods-IP Locator-IJReachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-IJReachability-umbrella.h"; sourceTree = "<group>"; };
-		C27172B3C63AE5F2164E7DE9 /* Pods-IP Locator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IP Locator-acknowledgements.plist"; sourceTree = "<group>"; };
-		C3DD24A650A58A8C3CF2E0DB /* Pods-IP Locator-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IP Locator-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		C52FD52FE7B5E259229674B4 /* Pods-IP Locator-IJReachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IP Locator-IJReachability.modulemap"; sourceTree = "<group>"; };
-		C79E08B08B0760105C8F407B /* Pods-IP Locator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IP Locator-resources.sh"; sourceTree = "<group>"; };
-		CE671400AD0F6D6E16DC0A6D /* Pods-IP Locator-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		D137B6ADD5E40D50A0646144 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		DB421FD984042B3208EDF42D /* Pods-IP Locator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator.release.xcconfig"; sourceTree = "<group>"; };
-		E0CA581BCF0BCB3C0ADA17FC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		EE57F2F926AACAAFB905B902 /* Pods-IP Locator-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-environment.h"; sourceTree = "<group>"; };
-		F0D559A3F2545119C5AB974A /* Pods-IP Locator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-umbrella.h"; sourceTree = "<group>"; };
-		F15ADF2F7061052F00641497 /* Pods-IP Locator-IJReachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-IJReachability.xcconfig"; sourceTree = "<group>"; };
+		02080CA8969818D79306A89E /* Pods-IP Locator-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		0CC4FFE3A9A4BEFE96CC58D2 /* Pods_IP_Locator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IP_Locator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EACD2D615BCACFEB980CAF6 /* Pods-IP Locator-IJReachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IP Locator-IJReachability-dummy.m"; sourceTree = "<group>"; };
+		1186CF78485170DF3142ED70 /* Pods-IP Locator-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		268BFBF26170721C31FADC2A /* Pods-IP Locator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IP Locator-acknowledgements.plist"; sourceTree = "<group>"; };
+		2831697BD90502B7B1E5D47A /* Pods-IP Locator-IJReachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-IJReachability-Private.xcconfig"; sourceTree = "<group>"; };
+		2909A56FF041BC9A68C6D1BA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		2B869A38C01941B54FCD4A9F /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		3315C731761D5D7C4210997A /* Pods-IP Locator-IJReachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-IJReachability.xcconfig"; sourceTree = "<group>"; };
+		352EFAD3F4ED491935ECBF0A /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		3751D4708DA592A47C0BB8FD /* Pods-IP Locator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IP Locator-resources.sh"; sourceTree = "<group>"; };
+		3860FE8EA367A65340006000 /* Pods-IP Locator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator.release.xcconfig"; sourceTree = "<group>"; };
+		3EF12D8A39485F64B9E7EDA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F38F988E3CE1AA8E32564C1 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		44A72626AB9CFC072CD6AE3A /* Pods-IP Locator-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		47486F09D76848C286ECEDE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		479F8DDAF65317A34A1DB197 /* Pods-IP Locator-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IP Locator-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		4C14AFBE8698182CD467D4CC /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		4E1BF58839F4684B20832C1E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		4E89BF6AA091FD5B2B24DBE7 /* IJReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IJReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570784DA455792A49B792AE7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B78D313265D550B5E82922C /* Pods-IP Locator-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		670404BDBE7392760CA53714 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		709F0C8F213466FAC8E5F3D9 /* Pods-IP Locator-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IP Locator-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		776678C0F823669A0983E81A /* Pods-IP Locator-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IP Locator-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		80567D73B93B7C87D9484211 /* Pods-IP Locator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IP Locator.modulemap"; sourceTree = "<group>"; };
+		88A697C4A0FEFF79080C85AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B36ABBC20E915D731958F08 /* Pods-IP Locator-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		8C00210C20E610103924616A /* Pods-IP Locator-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IP Locator-Alamofire.modulemap"; sourceTree = "<group>"; };
+		8CE0F8450DDCA33FA3115258 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		93F562CA88DB4E20CDC8B10B /* Pods-IP Locator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IP Locator-frameworks.sh"; sourceTree = "<group>"; };
+		9792064A0C82CFCD6EEC33E3 /* Pods-IP Locator-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		9917C8DF55261874D5C0D210 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		9E6460ABFB0C11C6383CE75B /* Pods-IP Locator-IJReachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-IJReachability-umbrella.h"; sourceTree = "<group>"; };
+		9F5D732347349CA789831AA5 /* IJReachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IJReachability.swift; path = IJReachability/IJReachability/IJReachability.swift; sourceTree = "<group>"; };
+		A2E39ABB63ABF1EB0D4FBD89 /* Pods-IP Locator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IP Locator-dummy.m"; sourceTree = "<group>"; };
+		B01009AA38C11BA7E83EA64C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA43801AA97D7AFF2398C8BB /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		D58DD6FE52BACA2C8A85C98F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2336DE48B2C0AD0F3504757 /* Pods-IP Locator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-umbrella.h"; sourceTree = "<group>"; };
+		E2C6E8AE1B9469BA916828B2 /* Pods-IP Locator-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		E3A8983D7357941569CA92E3 /* Pods-IP Locator-IJReachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IP Locator-IJReachability.modulemap"; sourceTree = "<group>"; };
+		E3E649C5E8A9DE2615428AC4 /* Pods-IP Locator-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		E8DBEC519D00C8E6A70AC6D7 /* Pods-IP Locator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IP Locator.debug.xcconfig"; sourceTree = "<group>"; };
+		F00A731F7FE513E3B51DA374 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F051387A61D3056E7722F47D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0E18C0D37DD8A1DFDA5BFC3 /* Pods-IP Locator-IJReachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-IJReachability-prefix.pch"; sourceTree = "<group>"; };
+		F7E389C208576F23427F9683 /* Pods-IP Locator-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IP Locator-environment.h"; sourceTree = "<group>"; };
+		FC25BA04D9BD517057324F9D /* Pods-IP Locator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IP Locator-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0972414A72A11385541552FA /* Frameworks */ = {
+		1280A506652C15E5F865C9C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC4891792A37009E6A2B5A0A /* Foundation.framework in Frameworks */,
+				037CCCDE0AC43A59A585BB90 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A63B527037D2C73CD66EDB7 /* Frameworks */ = {
+		5874FEDCB2EB8E7E0545F7C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD4A284C85B2CD234B33D25 /* Foundation.framework in Frameworks */,
-				3944BC7739AE960E8A17F25A /* SystemConfiguration.framework in Frameworks */,
+				A5151D4EAB0BEDB25151B48E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7F745E3F69A60EFFFB58FB8 /* Frameworks */ = {
+		9382398DFB1165782F575212 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4315B91BF25FDED4C35BECBD /* Foundation.framework in Frameworks */,
+				D93B1B56728F8E18EA0FBDE7 /* Foundation.framework in Frameworks */,
+				EEA923563F7A3BEA95F20D19 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4DEEF2C691CD93507DDDC2E /* Frameworks */ = {
+		F329E2EC06F6CE7F6C64AA0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E195867B9238EC44C5164782 /* Foundation.framework in Frameworks */,
+				A97CC7C691179D2109A0C942 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08D3E041F59FC27B9A2A2CE2 /* Support Files */ = {
+		016E997B747EF82796E35C75 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7E7332CBCACB5CA43FC64D96 /* Info.plist */,
-				C52FD52FE7B5E259229674B4 /* Pods-IP Locator-IJReachability.modulemap */,
-				F15ADF2F7061052F00641497 /* Pods-IP Locator-IJReachability.xcconfig */,
-				4444F57E7AB66BE34907E77E /* Pods-IP Locator-IJReachability-Private.xcconfig */,
-				10FA09A11F0CFFCA1F266FD7 /* Pods-IP Locator-IJReachability-dummy.m */,
-				43607B24F97B0D10D175032E /* Pods-IP Locator-IJReachability-prefix.pch */,
-				B47869583BD816D98243B0BA /* Pods-IP Locator-IJReachability-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-IP Locator-IJReachability";
-			sourceTree = "<group>";
-		};
-		245044AA92ECC5480663B013 /* SwiftyJSON */ = {
-			isa = PBXGroup;
-			children = (
-				72D8400B7123AE39655857ED /* SwiftyJSON.swift */,
-				DF45ACF2AB2E4068263ACF77 /* Support Files */,
-			);
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		36CAC0DC39E8FA00731D9D55 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5565FA76D1A3FAC5AE79331F /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5565FA76D1A3FAC5AE79331F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3CB04175E4B04D5009710D01 /* Foundation.framework */,
-				E0CA581BCF0BCB3C0ADA17FC /* SystemConfiguration.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		71DCD3E34B28CB0458DB4924 = {
-			isa = PBXGroup;
-			children = (
-				995C26EE45D62DCC7ED03A35 /* Podfile */,
-				36CAC0DC39E8FA00731D9D55 /* Frameworks */,
-				823E754558884100AC963596 /* Pods */,
-				C8308EE3B6E130E0FC5586D7 /* Products */,
-				9BBF8BAF2E057BCF3B11E27D /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		73EDA0DAFDA862FDADF9B510 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				400F66CC9D520358523A95FB /* Alamofire.swift */,
-				814204F2D6459040A5B8527D /* Download.swift */,
-				D137B6ADD5E40D50A0646144 /* Manager.swift */,
-				2400BE7995B8049699701363 /* ParameterEncoding.swift */,
-				2F988D52504D2ED356E3873D /* Request.swift */,
-				792CA764DFA1FB9975C81401 /* ResponseSerialization.swift */,
-				374BEEF9D1AC1099A0870F73 /* Upload.swift */,
-				8F10E718E22733405247133C /* Validation.swift */,
-				78CB03C063A59DBA9B791BCF /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		78CB03C063A59DBA9B791BCF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				58A5A4A999555673244C7413 /* Info.plist */,
-				8BC608E3D410C23BEB261DB2 /* Pods-IP Locator-Alamofire.modulemap */,
-				CE671400AD0F6D6E16DC0A6D /* Pods-IP Locator-Alamofire.xcconfig */,
-				7F6442279056156A5F1E9F66 /* Pods-IP Locator-Alamofire-Private.xcconfig */,
-				739EBA72263F073A3FF449DE /* Pods-IP Locator-Alamofire-dummy.m */,
-				AF5B09E2CCA4B7F284A266BD /* Pods-IP Locator-Alamofire-prefix.pch */,
-				35A45375376F1550D26EC266 /* Pods-IP Locator-Alamofire-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-IP Locator-Alamofire";
-			sourceTree = "<group>";
-		};
-		823E754558884100AC963596 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				73EDA0DAFDA862FDADF9B510 /* Alamofire */,
-				BD50E0FE7FA791F0EC9A9392 /* IJReachability */,
-				245044AA92ECC5480663B013 /* SwiftyJSON */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9BBF8BAF2E057BCF3B11E27D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CDA9834E34ED6581C6B8FE7E /* Pods-IP Locator */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BD50E0FE7FA791F0EC9A9392 /* IJReachability */ = {
-			isa = PBXGroup;
-			children = (
-				9F074B85956058EE15535351 /* IJReachability.swift */,
-				08D3E041F59FC27B9A2A2CE2 /* Support Files */,
-			);
-			path = IJReachability;
-			sourceTree = "<group>";
-		};
-		C8308EE3B6E130E0FC5586D7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0B1AECA8E6C0A768FC349077 /* Alamofire.framework */,
-				27FBE599C2F5C6B88417A407 /* IJReachability.framework */,
-				24F5C6AD4E8DCF5CD1C23C95 /* Pods_IP_Locator.framework */,
-				A87380A5C3DCDE257092FE82 /* SwiftyJSON.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CDA9834E34ED6581C6B8FE7E /* Pods-IP Locator */ = {
-			isa = PBXGroup;
-			children = (
-				5DE03AFF1DF4CFFD3CDD4B14 /* Info.plist */,
-				303FCE812F6C74A8E7E6C83F /* Pods-IP Locator.modulemap */,
-				A837FE7022061F34B91B5349 /* Pods-IP Locator-acknowledgements.markdown */,
-				C27172B3C63AE5F2164E7DE9 /* Pods-IP Locator-acknowledgements.plist */,
-				301CAF6EDC881852409EBCE8 /* Pods-IP Locator-dummy.m */,
-				EE57F2F926AACAAFB905B902 /* Pods-IP Locator-environment.h */,
-				844D28D386B9BBC4F90E3A08 /* Pods-IP Locator-frameworks.sh */,
-				C79E08B08B0760105C8F407B /* Pods-IP Locator-resources.sh */,
-				F0D559A3F2545119C5AB974A /* Pods-IP Locator-umbrella.h */,
-				5766AB0E63AE186B2F2667A9 /* Pods-IP Locator.debug.xcconfig */,
-				DB421FD984042B3208EDF42D /* Pods-IP Locator.release.xcconfig */,
-			);
-			name = "Pods-IP Locator";
-			path = "Target Support Files/Pods-IP Locator";
-			sourceTree = "<group>";
-		};
-		DF45ACF2AB2E4068263ACF77 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				730FF62B6B49793DE7D0E131 /* Info.plist */,
-				8C17E6AFAD0A1DA36824AB93 /* Pods-IP Locator-SwiftyJSON.modulemap */,
-				861ECB11754C5013079BC5DA /* Pods-IP Locator-SwiftyJSON.xcconfig */,
-				4AEADEF5C3DFC81D24A54AEE /* Pods-IP Locator-SwiftyJSON-Private.xcconfig */,
-				C3DD24A650A58A8C3CF2E0DB /* Pods-IP Locator-SwiftyJSON-dummy.m */,
-				2629EE2ADE82AFBDD5A740C4 /* Pods-IP Locator-SwiftyJSON-prefix.pch */,
-				8FA027D60B3CED051D14959A /* Pods-IP Locator-SwiftyJSON-umbrella.h */,
+				F051387A61D3056E7722F47D /* Info.plist */,
+				709F0C8F213466FAC8E5F3D9 /* Pods-IP Locator-SwiftyJSON.modulemap */,
+				1186CF78485170DF3142ED70 /* Pods-IP Locator-SwiftyJSON.xcconfig */,
+				44A72626AB9CFC072CD6AE3A /* Pods-IP Locator-SwiftyJSON-Private.xcconfig */,
+				776678C0F823669A0983E81A /* Pods-IP Locator-SwiftyJSON-dummy.m */,
+				9792064A0C82CFCD6EEC33E3 /* Pods-IP Locator-SwiftyJSON-prefix.pch */,
+				8B36ABBC20E915D731958F08 /* Pods-IP Locator-SwiftyJSON-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-IP Locator-SwiftyJSON";
 			sourceTree = "<group>";
 		};
+		26F69CC65C0CDF1CF8CFBE0C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				47486F09D76848C286ECEDE4 /* Foundation.framework */,
+				2909A56FF041BC9A68C6D1BA /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		329582D20D1EF3C1BC4A76E7 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				8CE0F8450DDCA33FA3115258 /* SwiftyJSON.swift */,
+				016E997B747EF82796E35C75 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7D1C639C96489C296C0AEC22 = {
+			isa = PBXGroup;
+			children = (
+				B01009AA38C11BA7E83EA64C /* Podfile */,
+				8325F4C548AA12496E8A112F /* Frameworks */,
+				E2647DF6C3AEF051A2BDDC96 /* Pods */,
+				AEAF1BD4C62CF1712BA231ED /* Products */,
+				8046BB0615EFB0E8F0EF243A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8046BB0615EFB0E8F0EF243A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF76024B424EF37CB843674F /* Pods-IP Locator */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8325F4C548AA12496E8A112F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F69CC65C0CDF1CF8CFBE0C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BE74670C793E8EF379E97DC /* IJReachability */ = {
+			isa = PBXGroup;
+			children = (
+				9F5D732347349CA789831AA5 /* IJReachability.swift */,
+				F09A6EB7D2F4AAA6FDB3FAEB /* Support Files */,
+			);
+			path = IJReachability;
+			sourceTree = "<group>";
+		};
+		A18542DFEF0F36782646C994 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F00A731F7FE513E3B51DA374 /* Info.plist */,
+				8C00210C20E610103924616A /* Pods-IP Locator-Alamofire.modulemap */,
+				02080CA8969818D79306A89E /* Pods-IP Locator-Alamofire.xcconfig */,
+				E2C6E8AE1B9469BA916828B2 /* Pods-IP Locator-Alamofire-Private.xcconfig */,
+				479F8DDAF65317A34A1DB197 /* Pods-IP Locator-Alamofire-dummy.m */,
+				E3E649C5E8A9DE2615428AC4 /* Pods-IP Locator-Alamofire-prefix.pch */,
+				5B78D313265D550B5E82922C /* Pods-IP Locator-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-IP Locator-Alamofire";
+			sourceTree = "<group>";
+		};
+		AEAF1BD4C62CF1712BA231ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570784DA455792A49B792AE7 /* Alamofire.framework */,
+				4E89BF6AA091FD5B2B24DBE7 /* IJReachability.framework */,
+				0CC4FFE3A9A4BEFE96CC58D2 /* Pods_IP_Locator.framework */,
+				D58DD6FE52BACA2C8A85C98F /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF76024B424EF37CB843674F /* Pods-IP Locator */ = {
+			isa = PBXGroup;
+			children = (
+				3EF12D8A39485F64B9E7EDA9 /* Info.plist */,
+				80567D73B93B7C87D9484211 /* Pods-IP Locator.modulemap */,
+				FC25BA04D9BD517057324F9D /* Pods-IP Locator-acknowledgements.markdown */,
+				268BFBF26170721C31FADC2A /* Pods-IP Locator-acknowledgements.plist */,
+				A2E39ABB63ABF1EB0D4FBD89 /* Pods-IP Locator-dummy.m */,
+				F7E389C208576F23427F9683 /* Pods-IP Locator-environment.h */,
+				93F562CA88DB4E20CDC8B10B /* Pods-IP Locator-frameworks.sh */,
+				3751D4708DA592A47C0BB8FD /* Pods-IP Locator-resources.sh */,
+				E2336DE48B2C0AD0F3504757 /* Pods-IP Locator-umbrella.h */,
+				E8DBEC519D00C8E6A70AC6D7 /* Pods-IP Locator.debug.xcconfig */,
+				3860FE8EA367A65340006000 /* Pods-IP Locator.release.xcconfig */,
+			);
+			name = "Pods-IP Locator";
+			path = "Target Support Files/Pods-IP Locator";
+			sourceTree = "<group>";
+		};
+		D664BBDAF30D3A4267655605 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				2B869A38C01941B54FCD4A9F /* Alamofire.swift */,
+				9917C8DF55261874D5C0D210 /* Download.swift */,
+				352EFAD3F4ED491935ECBF0A /* Manager.swift */,
+				3F38F988E3CE1AA8E32564C1 /* ParameterEncoding.swift */,
+				4E1BF58839F4684B20832C1E /* Request.swift */,
+				670404BDBE7392760CA53714 /* ResponseSerialization.swift */,
+				4C14AFBE8698182CD467D4CC /* Upload.swift */,
+				CA43801AA97D7AFF2398C8BB /* Validation.swift */,
+				A18542DFEF0F36782646C994 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		E2647DF6C3AEF051A2BDDC96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D664BBDAF30D3A4267655605 /* Alamofire */,
+				9BE74670C793E8EF379E97DC /* IJReachability */,
+				329582D20D1EF3C1BC4A76E7 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F09A6EB7D2F4AAA6FDB3FAEB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88A697C4A0FEFF79080C85AF /* Info.plist */,
+				E3A8983D7357941569CA92E3 /* Pods-IP Locator-IJReachability.modulemap */,
+				3315C731761D5D7C4210997A /* Pods-IP Locator-IJReachability.xcconfig */,
+				2831697BD90502B7B1E5D47A /* Pods-IP Locator-IJReachability-Private.xcconfig */,
+				0EACD2D615BCACFEB980CAF6 /* Pods-IP Locator-IJReachability-dummy.m */,
+				F0E18C0D37DD8A1DFDA5BFC3 /* Pods-IP Locator-IJReachability-prefix.pch */,
+				9E6460ABFB0C11C6383CE75B /* Pods-IP Locator-IJReachability-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-IP Locator-IJReachability";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		20F72A36AA2B6324658BDDEC /* Headers */ = {
+		48743C18A4C7754EBF996FD3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				464984E28BDAB4DF998FD8DE /* Pods-IP Locator-IJReachability-umbrella.h in Headers */,
+				FE3C696202DB3BED1E2E7202 /* Pods-IP Locator-SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B78F1A92CD8D032F0040008 /* Headers */ = {
+		D5FC457BD579A4CC0D1465D8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A80A68FB0106B59D45A71E5 /* Pods-IP Locator-umbrella.h in Headers */,
+				933780AC92A7497AB837326E /* Pods-IP Locator-Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F13501219CF3D49622FFEED0 /* Headers */ = {
+		D72334CE8AC9F912C630BB9B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DAF6BB7DBE2C3F1E42A5A4E /* Pods-IP Locator-SwiftyJSON-umbrella.h in Headers */,
+				A448D090E8CEA4F2E10D9BD5 /* Pods-IP Locator-IJReachability-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F81BC40B45FF4C2DCB59FF70 /* Headers */ = {
+		FC6A46F29465430CF2C1EB13 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB113F3E321DAF30ADEE9389 /* Pods-IP Locator-Alamofire-umbrella.h in Headers */,
+				A57653AFC435964B3B7A7C75 /* Pods-IP Locator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		165169E0B750815964B2CE2D /* Pods-IP Locator-SwiftyJSON */ = {
+		0D478ABCE2021C741B7DCB9A /* Pods-IP Locator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17C0708D251003375744E9F4 /* Build configuration list for PBXNativeTarget "Pods-IP Locator-SwiftyJSON" */;
+			buildConfigurationList = 99D9E4F818DF831831DD43CC /* Build configuration list for PBXNativeTarget "Pods-IP Locator" */;
 			buildPhases = (
-				3B169062606BAF54B0CCC5AA /* Sources */,
-				0972414A72A11385541552FA /* Frameworks */,
-				F13501219CF3D49622FFEED0 /* Headers */,
+				7968AD91342259CB702DD044 /* Sources */,
+				F329E2EC06F6CE7F6C64AA0C /* Frameworks */,
+				FC6A46F29465430CF2C1EB13 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B583DDC2ABB09790A3605AD4 /* PBXTargetDependency */,
+				57B57B759D886A1F657E7C5A /* PBXTargetDependency */,
+				3E3EBA1FAAC036114DE71F4F /* PBXTargetDependency */,
 			);
-			name = "Pods-IP Locator-SwiftyJSON";
-			productName = "Pods-IP Locator-SwiftyJSON";
-			productReference = A87380A5C3DCDE257092FE82 /* SwiftyJSON.framework */;
+			name = "Pods-IP Locator";
+			productName = "Pods-IP Locator";
+			productReference = 0CC4FFE3A9A4BEFE96CC58D2 /* Pods_IP_Locator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4D99D1B81A1792A39DD57095 /* Pods-IP Locator-IJReachability */ = {
+		13CDFB6D6A09CEB9AD500BE3 /* Pods-IP Locator-IJReachability */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E204878F4D36F24A49A14BA /* Build configuration list for PBXNativeTarget "Pods-IP Locator-IJReachability" */;
+			buildConfigurationList = EFD1800DC230C7A20D591790 /* Build configuration list for PBXNativeTarget "Pods-IP Locator-IJReachability" */;
 			buildPhases = (
-				DD0EDF8520112B4F42D4739A /* Sources */,
-				4A63B527037D2C73CD66EDB7 /* Frameworks */,
-				20F72A36AA2B6324658BDDEC /* Headers */,
+				35E6AFA0E87C276E70A6A657 /* Sources */,
+				9382398DFB1165782F575212 /* Frameworks */,
+				D72334CE8AC9F912C630BB9B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -369,16 +372,33 @@
 			);
 			name = "Pods-IP Locator-IJReachability";
 			productName = "Pods-IP Locator-IJReachability";
-			productReference = 27FBE599C2F5C6B88417A407 /* IJReachability.framework */;
+			productReference = 4E89BF6AA091FD5B2B24DBE7 /* IJReachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B956826D2421ED9F20B5C547 /* Pods-IP Locator-Alamofire */ = {
+		4FB598BE70302C8DDD4FE6B8 /* Pods-IP Locator-SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69EE595781855D3BF7620B7A /* Build configuration list for PBXNativeTarget "Pods-IP Locator-Alamofire" */;
+			buildConfigurationList = 8B9DB1744474C199FA4B3899 /* Build configuration list for PBXNativeTarget "Pods-IP Locator-SwiftyJSON" */;
 			buildPhases = (
-				51AC273841C9F0B8BE666858 /* Sources */,
-				E4DEEF2C691CD93507DDDC2E /* Frameworks */,
-				F81BC40B45FF4C2DCB59FF70 /* Headers */,
+				3221621B3B58F79FBEA54AEA /* Sources */,
+				5874FEDCB2EB8E7E0545F7C6 /* Frameworks */,
+				48743C18A4C7754EBF996FD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-IP Locator-SwiftyJSON";
+			productName = "Pods-IP Locator-SwiftyJSON";
+			productReference = D58DD6FE52BACA2C8A85C98F /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E13159AE4808FF4CE60CBFD1 /* Pods-IP Locator-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77101E0A998B80645A1DBBDA /* Build configuration list for PBXNativeTarget "Pods-IP Locator-Alamofire" */;
+			buildPhases = (
+				5F253A72CE0036F6893DB975 /* Sources */,
+				1280A506652C15E5F865C9C4 /* Frameworks */,
+				D5FC457BD579A4CC0D1465D8 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -386,127 +406,107 @@
 			);
 			name = "Pods-IP Locator-Alamofire";
 			productName = "Pods-IP Locator-Alamofire";
-			productReference = 0B1AECA8E6C0A768FC349077 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C43574572C9D7E40124DC899 /* Pods-IP Locator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 47E328912EA45BD4C9A641FA /* Build configuration list for PBXNativeTarget "Pods-IP Locator" */;
-			buildPhases = (
-				33581C4004D0D1061FA5F1FD /* Sources */,
-				B7F745E3F69A60EFFFB58FB8 /* Frameworks */,
-				5B78F1A92CD8D032F0040008 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				09C37E27D45F118CC0ADD378 /* PBXTargetDependency */,
-				CCEC385E43FF69A5EDA5AD2B /* PBXTargetDependency */,
-				9EC1F1D451863876B56334C3 /* PBXTargetDependency */,
-			);
-			name = "Pods-IP Locator";
-			productName = "Pods-IP Locator";
-			productReference = 24F5C6AD4E8DCF5CD1C23C95 /* Pods_IP_Locator.framework */;
+			productReference = 570784DA455792A49B792AE7 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9E71B99644B6EF8B52204D2F /* Project object */ = {
+		48D0713E84F4737EE794259C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = DC54F4AE54BB7DC93603052C /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = A650428B2E61FFB2B1AA22AC /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 71DCD3E34B28CB0458DB4924;
-			productRefGroup = C8308EE3B6E130E0FC5586D7 /* Products */;
+			mainGroup = 7D1C639C96489C296C0AEC22;
+			productRefGroup = AEAF1BD4C62CF1712BA231ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C43574572C9D7E40124DC899 /* Pods-IP Locator */,
-				B956826D2421ED9F20B5C547 /* Pods-IP Locator-Alamofire */,
-				4D99D1B81A1792A39DD57095 /* Pods-IP Locator-IJReachability */,
-				165169E0B750815964B2CE2D /* Pods-IP Locator-SwiftyJSON */,
+				0D478ABCE2021C741B7DCB9A /* Pods-IP Locator */,
+				E13159AE4808FF4CE60CBFD1 /* Pods-IP Locator-Alamofire */,
+				13CDFB6D6A09CEB9AD500BE3 /* Pods-IP Locator-IJReachability */,
+				4FB598BE70302C8DDD4FE6B8 /* Pods-IP Locator-SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33581C4004D0D1061FA5F1FD /* Sources */ = {
+		3221621B3B58F79FBEA54AEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E610E6E017D2CE8B6C7389 /* Pods-IP Locator-dummy.m in Sources */,
+				4158827DABABBC20210EB94F /* Pods-IP Locator-SwiftyJSON-dummy.m in Sources */,
+				6ADDF15539E0BEF7F9F7E751 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B169062606BAF54B0CCC5AA /* Sources */ = {
+		35E6AFA0E87C276E70A6A657 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A293D3F24BABFF01723E9AE3 /* Pods-IP Locator-SwiftyJSON-dummy.m in Sources */,
-				D7684C89D67933EBD4893C2F /* SwiftyJSON.swift in Sources */,
+				40BB4AD7C0D0D125E3762265 /* IJReachability.swift in Sources */,
+				7B05EA71E4A93EB103BD534B /* Pods-IP Locator-IJReachability-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51AC273841C9F0B8BE666858 /* Sources */ = {
+		5F253A72CE0036F6893DB975 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E839A6C6C6C43D87DAE2A5EC /* Alamofire.swift in Sources */,
-				E57FE9DE6955F7EC9973768B /* Download.swift in Sources */,
-				50680878D157C2C7F4049D8F /* Manager.swift in Sources */,
-				9B6394AA47C51B78D738F8E1 /* ParameterEncoding.swift in Sources */,
-				0388C47AADB3E136A7A70F5E /* Pods-IP Locator-Alamofire-dummy.m in Sources */,
-				E85F0ABF28AACB5558D59A87 /* Request.swift in Sources */,
-				B152BE1D0EC0CDE539877180 /* ResponseSerialization.swift in Sources */,
-				ECE87055A4112DE92701F324 /* Upload.swift in Sources */,
-				DF4DCC9FD0E304056F2126E0 /* Validation.swift in Sources */,
+				C86933CA7F93BA560067BBA2 /* Alamofire.swift in Sources */,
+				7924330DAF4844820361E87C /* Download.swift in Sources */,
+				3B6D00FB4599E86753074717 /* Manager.swift in Sources */,
+				13DCBA61E8997BAD8F612655 /* ParameterEncoding.swift in Sources */,
+				D0049EEE4C6603B0FA75970E /* Pods-IP Locator-Alamofire-dummy.m in Sources */,
+				C0F3EC7E708E2F7D605B4F75 /* Request.swift in Sources */,
+				19C201EAC0E36C010A982526 /* ResponseSerialization.swift in Sources */,
+				EEA3F4A282B8ADA8C8DCBA80 /* Upload.swift in Sources */,
+				291EA5D86D1D07B2AD7636F5 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD0EDF8520112B4F42D4739A /* Sources */ = {
+		7968AD91342259CB702DD044 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C19A7488EF4B7C7E933D7A92 /* IJReachability.swift in Sources */,
-				60A47C45174B7A51512511ED /* Pods-IP Locator-IJReachability-dummy.m in Sources */,
+				CBAF92086C1B1BDDD71D6FC1 /* Pods-IP Locator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09C37E27D45F118CC0ADD378 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-IP Locator-Alamofire";
-			target = B956826D2421ED9F20B5C547 /* Pods-IP Locator-Alamofire */;
-			targetProxy = 3417620C426E0AD49A8C46B1 /* PBXContainerItemProxy */;
-		};
-		9EC1F1D451863876B56334C3 /* PBXTargetDependency */ = {
+		3E3EBA1FAAC036114DE71F4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-IP Locator-SwiftyJSON";
-			target = 165169E0B750815964B2CE2D /* Pods-IP Locator-SwiftyJSON */;
-			targetProxy = AC72C5D4C6BDD9EAB788E5E0 /* PBXContainerItemProxy */;
+			target = 4FB598BE70302C8DDD4FE6B8 /* Pods-IP Locator-SwiftyJSON */;
+			targetProxy = A2DD75588E6EE6165B336F39 /* PBXContainerItemProxy */;
 		};
-		CCEC385E43FF69A5EDA5AD2B /* PBXTargetDependency */ = {
+		57B57B759D886A1F657E7C5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-IP Locator-IJReachability";
-			target = 4D99D1B81A1792A39DD57095 /* Pods-IP Locator-IJReachability */;
-			targetProxy = 1B98E339474777A39DC91C93 /* PBXContainerItemProxy */;
+			target = 13CDFB6D6A09CEB9AD500BE3 /* Pods-IP Locator-IJReachability */;
+			targetProxy = EB8EC6F62D63BAEE9BB8EA07 /* PBXContainerItemProxy */;
+		};
+		B583DDC2ABB09790A3605AD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IP Locator-Alamofire";
+			target = E13159AE4808FF4CE60CBFD1 /* Pods-IP Locator-Alamofire */;
+			targetProxy = 9F5A2E09B5D53A58B8D5E142 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3564F8857AB5AF929EF126E6 /* Debug */ = {
+		4418933AF8A2A8828B0BFFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5766AB0E63AE186B2F2667A9 /* Pods-IP Locator.debug.xcconfig */;
+			baseConfigurationReference = E8DBEC519D00C8E6A70AC6D7 /* Pods-IP Locator.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -534,181 +534,9 @@
 			};
 			name = Debug;
 		};
-		3E20B41EEB62A551E3814043 /* Release */ = {
+		46201DBD5399BF196B5103C0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F6442279056156A5F1E9F66 /* Pods-IP Locator-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-IP Locator-Alamofire/Pods-IP Locator-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-IP Locator-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-IP Locator-Alamofire/Pods-IP Locator-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4D14B111C85F7E743D5D00C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AEADEF5C3DFC81D24A54AEE /* Pods-IP Locator-SwiftyJSON-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-IP Locator-SwiftyJSON/Pods-IP Locator-SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-IP Locator-SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-IP Locator-SwiftyJSON/Pods-IP Locator-SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5E8B9A619C8D1A5769FD7BF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7D604ECE70DEDC315DD8A830 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F6442279056156A5F1E9F66 /* Pods-IP Locator-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-IP Locator-Alamofire/Pods-IP Locator-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-IP Locator-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-IP Locator-Alamofire/Pods-IP Locator-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		97E2AB7A7062E7F9C3010D58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4444F57E7AB66BE34907E77E /* Pods-IP Locator-IJReachability-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-IP Locator-IJReachability/Pods-IP Locator-IJReachability-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-IP Locator-IJReachability/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-IP Locator-IJReachability/Pods-IP Locator-IJReachability.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = IJReachability;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E1875DEAC82D43F17254F8FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4444F57E7AB66BE34907E77E /* Pods-IP Locator-IJReachability-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-IP Locator-IJReachability/Pods-IP Locator-IJReachability-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-IP Locator-IJReachability/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-IP Locator-IJReachability/Pods-IP Locator-IJReachability.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = IJReachability;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EDB1AF00DB8C1B453E50ECA8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB421FD984042B3208EDF42D /* Pods-IP Locator.release.xcconfig */;
+			baseConfigurationReference = 3860FE8EA367A65340006000 /* Pods-IP Locator.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -735,9 +563,9 @@
 			};
 			name = Release;
 		};
-		EE88A10D611633E6C24C954C /* Release */ = {
+		495319E5EB7360B161F67339 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AEADEF5C3DFC81D24A54AEE /* Pods-IP Locator-SwiftyJSON-Private.xcconfig */;
+			baseConfigurationReference = 44A72626AB9CFC072CD6AE3A /* Pods-IP Locator-SwiftyJSON-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -762,7 +590,7 @@
 			};
 			name = Release;
 		};
-		FE13656DC3B5381C18F3EB41 /* Debug */ = {
+		57F3F60708803AC5414708F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -801,55 +629,227 @@
 			};
 			name = Debug;
 		};
+		5FCEB61EF5BF2C6BEF0E10DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2831697BD90502B7B1E5D47A /* Pods-IP Locator-IJReachability-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-IP Locator-IJReachability/Pods-IP Locator-IJReachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-IP Locator-IJReachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-IP Locator-IJReachability/Pods-IP Locator-IJReachability.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IJReachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		692B1BB71D7BF84102C79754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C6E8AE1B9469BA916828B2 /* Pods-IP Locator-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-IP Locator-Alamofire/Pods-IP Locator-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-IP Locator-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-IP Locator-Alamofire/Pods-IP Locator-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		733AEBEA810222E1BB986D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C6E8AE1B9469BA916828B2 /* Pods-IP Locator-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-IP Locator-Alamofire/Pods-IP Locator-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-IP Locator-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-IP Locator-Alamofire/Pods-IP Locator-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0F793839205527E7D072D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44A72626AB9CFC072CD6AE3A /* Pods-IP Locator-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-IP Locator-SwiftyJSON/Pods-IP Locator-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-IP Locator-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-IP Locator-SwiftyJSON/Pods-IP Locator-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA1E58C6D32B575D0AC3F6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C587F59C7D03C0283FCAF9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2831697BD90502B7B1E5D47A /* Pods-IP Locator-IJReachability-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-IP Locator-IJReachability/Pods-IP Locator-IJReachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-IP Locator-IJReachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-IP Locator-IJReachability/Pods-IP Locator-IJReachability.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IJReachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E204878F4D36F24A49A14BA /* Build configuration list for PBXNativeTarget "Pods-IP Locator-IJReachability" */ = {
+		77101E0A998B80645A1DBBDA /* Build configuration list for PBXNativeTarget "Pods-IP Locator-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1875DEAC82D43F17254F8FC /* Debug */,
-				97E2AB7A7062E7F9C3010D58 /* Release */,
+				733AEBEA810222E1BB986D89 /* Debug */,
+				692B1BB71D7BF84102C79754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17C0708D251003375744E9F4 /* Build configuration list for PBXNativeTarget "Pods-IP Locator-SwiftyJSON" */ = {
+		8B9DB1744474C199FA4B3899 /* Build configuration list for PBXNativeTarget "Pods-IP Locator-SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D14B111C85F7E743D5D00C0 /* Debug */,
-				EE88A10D611633E6C24C954C /* Release */,
+				A0F793839205527E7D072D91 /* Debug */,
+				495319E5EB7360B161F67339 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47E328912EA45BD4C9A641FA /* Build configuration list for PBXNativeTarget "Pods-IP Locator" */ = {
+		99D9E4F818DF831831DD43CC /* Build configuration list for PBXNativeTarget "Pods-IP Locator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3564F8857AB5AF929EF126E6 /* Debug */,
-				EDB1AF00DB8C1B453E50ECA8 /* Release */,
+				4418933AF8A2A8828B0BFFD9 /* Debug */,
+				46201DBD5399BF196B5103C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69EE595781855D3BF7620B7A /* Build configuration list for PBXNativeTarget "Pods-IP Locator-Alamofire" */ = {
+		A650428B2E61FFB2B1AA22AC /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D604ECE70DEDC315DD8A830 /* Debug */,
-				3E20B41EEB62A551E3814043 /* Release */,
+				57F3F60708803AC5414708F7 /* Debug */,
+				BA1E58C6D32B575D0AC3F6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC54F4AE54BB7DC93603052C /* Build configuration list for PBXProject "Pods" */ = {
+		EFD1800DC230C7A20D591790 /* Build configuration list for PBXNativeTarget "Pods-IP Locator-IJReachability" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE13656DC3B5381C18F3EB41 /* Debug */,
-				5E8B9A619C8D1A5769FD7BF1 /* Release */,
+				5FCEB61EF5BF2C6BEF0E10DF /* Debug */,
+				C587F59C7D03C0283FCAF9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9E71B99644B6EF8B52204D2F /* Project object */;
+	rootObject = 48D0713E84F4737EE794259C /* Project object */;
 }

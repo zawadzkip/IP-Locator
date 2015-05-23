@@ -27,12 +27,15 @@ class IPRequest : NSObject{
     This function makes a JSON call to the ipinfo API using Alamofire and SwiftyJSON, this will cause a response that will hold
     the user's current IP information with their location added.
     **/
-    func sendMyIPInfo() -> Void{
+    func sendMyIPInfo(activityIndicator: UIActivityIndicatorView, textBox: UITextField) -> Void{
         Alamofire.request(.GET, baseURL+getGeo).responseJSON{ (_,_,jsonResponse,error) in
             if(error == nil){
                 var json = JSON(jsonResponse!)
                 self.setVariables(json)
+                activityIndicator.stopAnimating()
+                textBox.text = self.responseInfo.getIP()
             }else{
+                activityIndicator.stopAnimating()
                 var alert = UIAlertView(title: "Response Error", message: "There was an error with the response returned from the intial request", delegate: nil, cancelButtonTitle: "Ok")
                 alert.show()
             }

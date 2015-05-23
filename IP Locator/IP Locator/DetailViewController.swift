@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class DetailViewController : UIViewController{
-    let touch = UITapGestureRecognizer
+
     
     override func viewDidLoad() {
 
