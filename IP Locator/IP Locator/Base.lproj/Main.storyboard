@@ -185,25 +185,25 @@
                                 <exclude reference="xbK-on-EoC"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="9zc-9u-bOD"/>
-                                <exclude reference="nTt-Iu-WZ3"/>
-                                <exclude reference="npW-bx-L6p"/>
-                                <exclude reference="0Xy-Gy-Zqs"/>
-                                <exclude reference="A9b-zl-rnj"/>
-                                <exclude reference="DFz-DY-GxN"/>
-                                <exclude reference="FkN-Qw-iDM"/>
-                                <exclude reference="Kt9-yb-1n6"/>
                                 <exclude reference="BMx-2E-bNb"/>
                                 <exclude reference="MaA-lq-nEA"/>
                                 <exclude reference="X8h-0n-ri2"/>
                                 <exclude reference="zJD-nb-tDn"/>
-                                <exclude reference="2vw-bc-wXU"/>
-                                <exclude reference="Apd-a1-OSH"/>
-                                <exclude reference="gJa-h5-7nI"/>
+                                <exclude reference="DFz-DY-GxN"/>
+                                <exclude reference="FkN-Qw-iDM"/>
+                                <exclude reference="Kt9-yb-1n6"/>
+                                <exclude reference="zhl-Sq-NFD"/>
                                 <exclude reference="a6N-Qb-9Hv"/>
                                 <exclude reference="diO-gQ-uL4"/>
                                 <exclude reference="yEv-6L-8Qw"/>
-                                <exclude reference="zhl-Sq-NFD"/>
+                                <exclude reference="2vw-bc-wXU"/>
+                                <exclude reference="Apd-a1-OSH"/>
+                                <exclude reference="gJa-h5-7nI"/>
+                                <exclude reference="0Xy-Gy-Zqs"/>
+                                <exclude reference="A9b-zl-rnj"/>
+                                <exclude reference="9zc-9u-bOD"/>
+                                <exclude reference="nTt-Iu-WZ3"/>
+                                <exclude reference="npW-bx-L6p"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -217,25 +217,25 @@
                                 <include reference="xbK-on-EoC"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="9zc-9u-bOD"/>
-                                <include reference="nTt-Iu-WZ3"/>
-                                <include reference="npW-bx-L6p"/>
-                                <include reference="0Xy-Gy-Zqs"/>
-                                <include reference="A9b-zl-rnj"/>
-                                <include reference="DFz-DY-GxN"/>
-                                <include reference="FkN-Qw-iDM"/>
-                                <include reference="Kt9-yb-1n6"/>
                                 <include reference="BMx-2E-bNb"/>
                                 <include reference="MaA-lq-nEA"/>
                                 <include reference="X8h-0n-ri2"/>
                                 <include reference="zJD-nb-tDn"/>
-                                <include reference="2vw-bc-wXU"/>
-                                <include reference="Apd-a1-OSH"/>
-                                <include reference="gJa-h5-7nI"/>
+                                <include reference="DFz-DY-GxN"/>
+                                <include reference="FkN-Qw-iDM"/>
+                                <include reference="Kt9-yb-1n6"/>
+                                <include reference="zhl-Sq-NFD"/>
                                 <include reference="a6N-Qb-9Hv"/>
                                 <include reference="diO-gQ-uL4"/>
                                 <include reference="yEv-6L-8Qw"/>
-                                <include reference="zhl-Sq-NFD"/>
+                                <include reference="2vw-bc-wXU"/>
+                                <include reference="Apd-a1-OSH"/>
+                                <include reference="gJa-h5-7nI"/>
+                                <include reference="0Xy-Gy-Zqs"/>
+                                <include reference="A9b-zl-rnj"/>
+                                <include reference="9zc-9u-bOD"/>
+                                <include reference="nTt-Iu-WZ3"/>
+                                <include reference="npW-bx-L6p"/>
                             </mask>
                         </variation>
                     </view>
@@ -277,7 +277,7 @@
                                         <barButtonItem key="rightBarButtonItem" title="Details" id="B1z-0M-fbP">
                                             <connections>
                                                 <action selector="detailsPressed:" destination="cyT-Dd-mu0" id="vfY-CO-iFj"/>
-                                                <segue destination="vuI-nK-zP7" kind="presentation" modalTransitionStyle="crossDissolve" id="QB2-Xt-8UY"/>
+                                                <segue destination="vuI-nK-zP7" kind="show" id="QB2-Xt-8UY"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -338,7 +338,7 @@
         <!--Detail View Controller-->
         <scene sceneID="7wC-aK-Ohf">
             <objects>
-                <viewController id="vuI-nK-zP7" customClass="DetailViewController" customModule="IP_Locator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="vuI-nK-zP7" customClass="DetailViewController" customModule="IP_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gcx-9f-Ytt"/>
                         <viewControllerLayoutGuide type="bottom" id="odf-BK-oUA"/>
@@ -350,38 +350,23 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current IP Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="xw9-qI-B52">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" red="0.047058828175067902" green="0.015686275437474251" blue="0.011764707043766975" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="113" y="376" width="175" height="47"/>
+                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
-                        <constraints>
-                            <constraint firstItem="xw9-qI-B52" firstAttribute="top" secondItem="gcx-9f-Ytt" secondAttribute="bottom" constant="8" id="RPU-5o-PQd"/>
-                            <constraint firstAttribute="centerX" secondItem="xw9-qI-B52" secondAttribute="centerX" constant="-0.5" id="s6e-IM-DPe"/>
-                            <constraint firstAttribute="centerY" secondItem="xw9-qI-B52" secondAttribute="centerY" constant="348.5" id="wDv-VA-ZUg"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xw9-qI-B52" secondAttribute="trailing" constant="96" id="wSO-qX-Etf"/>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="xw9-qI-B52"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="RPU-5o-PQd"/>
-                                <exclude reference="s6e-IM-DPe"/>
-                                <exclude reference="wDv-VA-ZUg"/>
-                                <exclude reference="wSO-qX-Etf"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="xw9-qI-B52"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="RPU-5o-PQd"/>
-                                <include reference="s6e-IM-DPe"/>
-                                <include reference="wDv-VA-ZUg"/>
-                                <include reference="wSO-qX-Etf"/>
                             </mask>
                         </variation>
                     </view>
@@ -389,7 +374,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M6p-g0-o0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1959" y="375"/>
+            <point key="canvasLocation" x="1974" y="315"/>
         </scene>
     </scenes>
     <resources>
