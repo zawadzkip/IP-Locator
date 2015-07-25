@@ -10,3 +10,6 @@ IP Locator is an iOS 8 app written in Swift that uses the [IPInfo.io](https://ww
 [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) for it's great JSON handling.<br>
 [IJReachability](https://github.com/Isuru-Nanayakkara/IJReachability)
 Its a really simple Swift file that allows you to check the internet connection on the device that you are running.
+
+####Question?
+Email me at zawadzki.patrick@yahoo.com
