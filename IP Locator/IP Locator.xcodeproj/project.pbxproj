@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CE2FF65A5EC17A3AA8213CF /* Pods_IP_Locator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510C7C9128E7C1908306ED49 /* Pods_IP_Locator.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1CE2FF65A5EC17A3AA8213CF /* Pods_IP_Locator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 510C7C9128E7C1908306ED49 /* Pods_IP_Locator.framework */; };
 		8E0B74FF1B0188FC007AA2CF /* IPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B74FE1B0188FC007AA2CF /* IPRequest.swift */; };
 		8E0B75011B018929007AA2CF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0B75001B018929007AA2CF /* Alamofire.framework */; };
 		8E0CCCC61B040F9D00D00DEC /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CCCC51B040F9D00D00DEC /* MainScreenViewController.swift */; };
@@ -216,6 +216,8 @@
 		8E6013D61B01881600ABDF26 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = PatZawadzki;
 				TargetAttributes = {

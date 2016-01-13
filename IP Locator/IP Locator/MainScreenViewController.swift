@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import IJReachability
+import ReachabilitySwift
 
 class MainScreenViewController : UIViewController, UITextFieldDelegate{
     
@@ -30,7 +30,7 @@ class MainScreenViewController : UIViewController, UITextFieldDelegate{
         return false;
     }
     
-    override func shouldPerformSegueWithIdentifier(identifier: String?, sender: AnyObject?) -> Bool {
+    override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
         if checkIPFormat(){
             if(!checkInternet()){
                 return false
@@ -74,6 +74,9 @@ class MainScreenViewController : UIViewController, UITextFieldDelegate{
         
     }
     
+    /**
+     Will need to update this function to better handle the new reachability class. Check podfile for link to repo.
+    */
     private func checkInternet() -> Bool{
         if(!IJReachability.isConnectedToNetwork()){
             var alert = UIAlertView(title: "Unable to Connect to Internet", message: "Please check your internet connection and try again", delegate: nil, cancelButtonTitle: "Ok")

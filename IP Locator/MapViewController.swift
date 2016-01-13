@@ -38,16 +38,9 @@ class MapViewController : UIViewController, MKMapViewDelegate{
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let vc = segue.destinationViewController as? UIViewController{
             vc.view.backgroundColor = UIColor(white: 0, alpha: 0.7)
-            self.navigationController?.modalPresentationStyle = UIModalPresentationStyle.OverCurrentContext
-            self.navigationController?.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
-            self.presentViewController(vc, animated: true, completion: nil)
         }
     }
-    
-    @IBAction func detailsPressed(sender: AnyObject) {
-        
-        //show "floating" view controller with faded background that displays details for the ip address created
-    }
+  
     @IBAction func backPressed(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: {})
         

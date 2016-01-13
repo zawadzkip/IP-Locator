@@ -3,9 +3,9 @@ platform :ios, '8.0'
 use_frameworks!
 xcodeproj 'IP Locator'
 target 'IP Locator' do
-	pod 'Alamofire', '~> 1.2.1'
-	pod 'SwiftyJSON','~> 2.2.0'
-	pod 'IJReachability', :git => 'https://github.com/Isuru-Nanayakkara/IJReachability.git'
+	pod 'Alamofire', '~> 3.0'
+	pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+	pod 'ReachabilitySwift', git: 'https://github.com/ashleymills/Reachability.swift'
 end
 
 target 'IP LocatorTests' do

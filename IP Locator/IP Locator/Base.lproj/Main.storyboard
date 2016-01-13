@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -252,7 +253,7 @@
         <!--Map View Controller-->
         <scene sceneID="cyS-wC-p9f">
             <objects>
-                <viewController id="cyT-Dd-mu0" customClass="MapViewController" customModule="IP_Locator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="overCurrentContext" id="cyT-Dd-mu0" customClass="MapViewController" customModule="IP_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5mF-o7-iB3"/>
                         <viewControllerLayoutGuide type="bottom" id="vGU-4B-hOa"/>
@@ -276,7 +277,6 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Details" id="B1z-0M-fbP">
                                             <connections>
-                                                <action selector="detailsPressed:" destination="cyT-Dd-mu0" id="vfY-CO-iFj"/>
                                                 <segue destination="vuI-nK-zP7" kind="show" id="QB2-Xt-8UY"/>
                                             </connections>
                                         </barButtonItem>
@@ -338,7 +338,7 @@
         <!--Detail View Controller-->
         <scene sceneID="7wC-aK-Ohf">
             <objects>
-                <viewController definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="vuI-nK-zP7" customClass="DetailViewController" customModule="IP_Locator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="vuI-nK-zP7" customClass="DetailViewController" customModule="IP_Locator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gcx-9f-Ytt"/>
                         <viewControllerLayoutGuide type="bottom" id="odf-BK-oUA"/>
@@ -352,21 +352,36 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.9960784912109375" green="0.99215692281723022" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="113" y="376" width="175" height="47"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="xw9-qI-B52" firstAttribute="top" secondItem="gcx-9f-Ytt" secondAttribute="bottom" id="1Wb-j5-Ayi"/>
+                            <constraint firstAttribute="centerX" secondItem="xw9-qI-B52" secondAttribute="centerX" constant="-0.5" id="8BJ-DF-Kh3"/>
+                            <constraint firstAttribute="centerY" secondItem="xw9-qI-B52" secondAttribute="centerY" constant="356.5" id="N8A-1v-AcJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xw9-qI-B52" secondAttribute="trailing" constant="96" id="fQK-Je-DLN"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="xw9-qI-B52"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="1Wb-j5-Ayi"/>
+                                <exclude reference="8BJ-DF-Kh3"/>
+                                <exclude reference="N8A-1v-AcJ"/>
+                                <exclude reference="fQK-Je-DLN"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="xw9-qI-B52"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="1Wb-j5-Ayi"/>
+                                <include reference="8BJ-DF-Kh3"/>
+                                <include reference="N8A-1v-AcJ"/>
+                                <include reference="fQK-Je-DLN"/>
                             </mask>
                         </variation>
                     </view>
@@ -374,7 +389,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M6p-g0-o0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1974" y="315"/>
+            <point key="canvasLocation" x="1960" y="503"/>
         </scene>
     </scenes>
     <resources>
